@@ -1,7 +1,9 @@
 import React from "react";
 import DeleteIcon from "@mui/icons-material/Delete";
+// import Fab from "@mui/material/Fab";
 
 function Note(props) {
+  // const datetime = new Date().toLocaleString();
   return (
     <div className="note">
       <h1>{props.title}</h1>
@@ -13,6 +15,7 @@ function Note(props) {
       >
         <DeleteIcon />
       </button>
+      {/* <p>{datetime}</p> */}
     </div>
   );
 }
